@@ -60,5 +60,15 @@ function App() {
       <Route path="/1" element={<Frame2 />} />
     </Routes>
   );
+
+
+  return (
+    <Router>
+      <Switch>
+        <Route path="/frame2" component={Frame2} />
+        <Route path="/" component={Frame} />
+      </Switch>
+    </Router>
+  );
 }
 export default App;
