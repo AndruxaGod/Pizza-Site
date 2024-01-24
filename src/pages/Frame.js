@@ -1,5 +1,3 @@
-// Frame.js
-
 import React from "react";
 import "./Frame.css";
 import { Link } from "react-router-dom"; // Импортируем Link из react-router-dom
